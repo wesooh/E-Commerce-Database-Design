@@ -31,8 +31,8 @@ The database contains tables for:
 
 Here is the visual representation of the database structure:
 
-![ERD](docs/ERD.png)  
-*(Replace with your ERD image link if you upload it to GitHub)*
+![ERD](ERD.pdf)  
+
 
 ## 📂 How to Use
 
