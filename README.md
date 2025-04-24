@@ -31,7 +31,7 @@ The database contains tables for:
 
 Here is the visual representation of the database structure:
 
-![ERD](ERD_page-0001.jpg)  
+![ERD](ERD_ecommerce.jpg)  
 
 ## 📦 Data Flow in the E-commerce Database
 
@@ -104,8 +104,10 @@ LEFT JOIN size_option so ON pi.size_id = so.size_id
 WHERE pi.quantity_in_stock > 0;
 ```
 ### 🤝 Contributors
-- Team Member 1
+- Wesley Mungai
 
 - Nelly Maritim
 
-- Team Member 3
+- Sylvia Karanja
+
+- Brian Magare
