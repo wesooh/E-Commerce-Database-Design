@@ -85,4 +85,27 @@ To create the database, run the `ecommerce.sql` file using your SQL database eng
 
 ```sql
 SOURCE C:\\Users\\drelm\\Documents\\ecommercedatabase\\ecommerce.sql;
+```
+### Sample Queries
+## Get all products with their Brand and categories
+```sql
+SELECT p.product_name, b.brand_name, pc.category_name
+FROM product p
+JOIN brand b ON p.brand_id = b.brand_id
+JOIN product_category pc ON p.category_id = pc.category_id;
+```
+## Find available product items with color and size
+```sql
+SELECT p.product_name, pi.sku, pi.price, c.color_name, so.size_value
+FROM product_item pi
+JOIN product p ON pi.product_id = p.product_id
+LEFT JOIN color c ON pi.color_id = c.color_id
+LEFT JOIN size_option so ON pi.size_id = so.size_id
+WHERE pi.quantity_in_stock > 0;
+```
+### 🤝 Contributors
+- Team Member 1
 
+- Nelly Maritim
+
+- Team Member 3
