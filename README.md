@@ -84,4 +84,5 @@ Let’s consider a scenario where a user wants to purchase a t-shirt:
 To create the database, run the `ecommerce.sql` file using your SQL database engine (e.g., MySQL Workbench):
 
 ```sql
-SOURCE path/to/ecommerce.sql;
+SOURCE C:\\Users\\drelm\\Documents\\ecommercedatabase\\ecommerce.sql;
+
